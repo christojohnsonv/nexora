@@ -233,6 +233,21 @@ The workflow uses asynchronous communication where appropriate and accounts for 
 - Business logic remains independent of transport and persistence details.
 - Reliability and failure handling are considered part of the system design.
 
+
+## Project documentation
+
+The architecture and engineering decisions are documented in the [docs directory](docs/README.md):
+
+- [System overview](docs/architecture/system-overview.md)
+- [Checkout workflow](docs/architecture/checkout-workflow.md)
+- [Data ownership and consistency](docs/architecture/data-ownership.md)
+- [Reliability principles](docs/architecture/reliability.md)
+- [Architecture Decision Records](docs/decisions/README.md)
+- [Development workflow](docs/development/workflow.md)
+- [Testing strategy](docs/development/testing-strategy.md)
+
+These documents describe the intended architecture. Individual components and controls are implemented incrementally through the project issues.
+
 ---
 
 **Nexora — a Go-based distributed commerce platform exploring the engineering behind reliable, event-driven systems.**
